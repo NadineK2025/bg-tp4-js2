@@ -1,0 +1,26 @@
+/* ===== Etape 1 : tableau + conteneur ===== */
+#table_container {
+    width: 80%;
+    margin: 30px auto;                         /* tableau au milieu */
+    font-family: Calibri, Arial, sans-serif;   /* police globale : Calibri en premier */
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .25);
+    background: #fff;
+}
+table { width: 100%; border-collapse: collapse; }
+th { background: #007bbd; color: #fff; padding: 10px; font-size: 14px; }
+td { padding: 10px; font-size: 14px; border-bottom: 1px solid #e3e3e3; }
+.col_number { text-align: center; width: 70px; }
+.col_text   { text-align: left; }
+.col_chkbox { text-align: center; width: 90px; }
+
+/* ===== Etape 4 : espace résumé ===== */
+#container_summary {
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+    padding: 0 10px;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+#container_summary p { margin: 10px 0; }
